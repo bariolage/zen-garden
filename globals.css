@@ -1,0 +1,55 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+/* basic elements */
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+:root {
+ --color-black: #252525;
+ --color-white: #fff;
+ --color-red: #c40f05;
+ --color-yellow: #e8b905;
+ --color-blue: #033b93;
+ --border-w: 1rem;
+ --border: var(--border-w) solid var(--color-black);
+ --color-light: #4d4d4d;
+ --padding-g: 2rem;
+}
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+html {
+ margin: 0;
+ padding: 0;
+ font-size: 16px;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ background: var(--color-dark);
+ color: var(--color-light);
+ line-height: 1.25rem;
+ font-family: "Raleway", sans-serif, "Kiwi Maru", "Asap", "Sans";
+ font-family: "Courier Prime", monospace;
+ letter-spacing: 0.025rem;
+}
+
+a {
+ color: inherit;
+ text-decoration: none;
+}
+
+p {
+ max-width: 96ch;
+}

@@ -1,0 +1,38 @@
+.sidebar .wrapper {
+ display: flex;
+ border: var(--border);
+}
+
+.sidebar .wrapper > div {
+ flex: 1;
+}
+
+.sidebar .wrapper ul {
+ padding: 1rem;
+}
+.sidebar .wrapper li {
+ list-style: none;
+}
+
+.sidebar .wrapper h3 {
+ padding: 1rem;
+ color: var(--color-white);
+ border-bottom: var(--border);
+}
+
+.design-selection,
+.design-archives {
+ border-right: var(--border);
+}
+
+.design-selection h3 {
+ background: var(--color-blue);
+}
+
+.design-archives h3 {
+ background: var(--color-yellow);
+}
+
+.zen-resources h3 {
+ background: var(--color-red);
+}
